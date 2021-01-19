@@ -25,6 +25,6 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a sfdx-helloworld
 
 sfdx force:source:push
 
-6. Oepn the scratch org
+6. Open the scratch org
 
 sfdx force:org:open
