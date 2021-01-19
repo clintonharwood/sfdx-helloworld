@@ -2,7 +2,7 @@
 
 1. Set up your environment. Follow the steps in the Quick Start: Lightning Web Components Trailhead project. The steps include:
 
-* Enable Dev Hub in your Trailhead Playground
+* Enable Dev Hub
 * Install Salesforce CLI
 * Install Visual Studio Code
 * Install the Visual Studio Code Salesforce extensions
@@ -14,13 +14,14 @@ sfdx auth:web:login -d -a myhuborg
 3. Clone the sfdx-helloworld repository:
 
 git clone https://github.com/clintonharwood/sfdx-helloworld
+
 cd sfdx-helloworld
 
 4. Create a scratch org and provide it with an alias (apex-recipes in the command below):
 
-sfdx force:org:create -s -f config/project-scratch-def.json -a apex-recipes
+sfdx force:org:create -s -f config/project-scratch-def.json -a sfdx-helloworld
 
-5. Push the app to your scratch org:
+5. Push the app to your scratch org
 
 sfdx force:source:push
 
